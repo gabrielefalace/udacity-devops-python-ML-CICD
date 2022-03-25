@@ -1,6 +1,9 @@
-pylint
+##pylint
 pytest
 #cython==0.29.28
+itsdangerous==2.0.1
+markupsafe==2.0.1
+Jinja2==2.10
 Flask==1.0.2
 pandas==0.24.2
 scikit-learn==0.20.3

@@ -1,3 +1,4 @@
+.VENV/
 VENV/
 __pycache__/
 .vscode/
