@@ -3,8 +3,8 @@ setup:
 
 install:
 	pip install --upgrade pip &&\
+		pip install --upgrade setuptools &&\
 		pip install -r requirements.txt
-		# pip install --upgrade setuptools
 
 test:
 	#python -m pytest -vv --cov=myrepolib tests/*.py

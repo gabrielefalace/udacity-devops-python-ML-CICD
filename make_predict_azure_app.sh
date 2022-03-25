@@ -4,7 +4,7 @@ PORT=443
 echo "Port: $PORT"
 
 # POST method predict
-curl -vvv -d '{
+curl -d '{
    "CHAS":{
       "0":0
    },
