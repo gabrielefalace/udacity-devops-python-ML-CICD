@@ -4,7 +4,6 @@ setup:
 install:
 	pip install --upgrade pip &&\
 		pip install --upgrade setuptools &&\
-		pip install --upgrade jinja2 &&\
 		pip install -r requirements.txt
 
 test:
