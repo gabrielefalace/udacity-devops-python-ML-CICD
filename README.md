@@ -3,44 +3,56 @@
 This project's goal is to set up a CI/CD pipeline for a Flask web service which computes prices for houses in Boston based on a number of features. 
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+
+* [A link to a Trello board for the project](https://trello.com/b/dKbbZzsg/devops-project)
+* [Link to the project plan spreadsheet](https://docs.google.com/spreadsheets/d/1AzvBUGSu-URpM0XsHgL2tsENGYB3ROJ0uO799wWlHSs/edit?usp=sharing)
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+### Architectural Diagram 
+![Architecture](/images/Azure_CI_CD_Architecture.jpg)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+
+### Basic instructions to setup & run the project
+
+1. Checkout the code (`git clone`) and create an environment in the root
+2. To try locally that everything's OK, run
+```
+python3 -m venv .VENV
+source VENV/bin/activate
+make all
+export FLASK_APP=app.py
+flask run
+```
+3. On GitHub, check everything integrates properly under GitHub actions.
+4. Run `az webapp up -sku F1 -n Flask-ML-App` to create the AppService instance.
+5. Go to `https://dev.azure.com`, create a new project, then create a new Pipeline and follow the simple steps in the wizard to connect the GitHub repo to the AppService instance.
 
 * Project running on Azure App Service
-
-![]()
+![Project Running On Azure AppService](/images/App_running_Apservice.png)
 
 * Project cloned into Azure Cloud Shell
+![Project Cloned in Azure Cloud Shell](/images/GitHub_Repo_Azure_Cloud_Shell.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+![Tests passing](/images/Make_all.png)
 
 * Output of a test run
+![Test output]()
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+* Successful deploy of the project in Azure Pipelines.
+![Test output](/images/Pipeline_Successful_Deploy.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+![Pipelines Running](/images/App_Deployed_Pipelines_Automatically.png)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+* Successful prediction from deployed flask app in Azure Cloud Shell. 
+![Successful Prediction]()
 
 * Output of streamed log files from deployed application
+![Log streams](/images/App_Running_Logs.png)
 
-> 
 
 ## Enhancements
 

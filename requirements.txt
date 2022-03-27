@@ -1,5 +1,6 @@
 ##pylint
 pytest
+pytest-cov
 #cython==0.29.28
 itsdangerous==2.0.1
 markupsafe==2.0.1
