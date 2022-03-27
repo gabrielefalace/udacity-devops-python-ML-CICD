@@ -1,6 +1,6 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This project's goal is to set up a CI/CD pipeline for a Flask web service which computes prices for houses in Boston based on a number of features. 
 
 ## Project Plan
 <TODO: Project Plan
@@ -16,6 +16,8 @@
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
+
+![]()
 
 * Project cloned into Azure Cloud Shell
 
@@ -42,7 +44,7 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+An important thing would be to upgrade libraries' versions. I had to downgrade versions and pin those downgraded ones in order to get the project running. Also having up to date versions would improve security.
 
 ## Demo 
 
