@@ -5,7 +5,7 @@ This project's goal is to set up a CI/CD pipeline for a Flask web service which 
 ## Project Plan
 
 
-* [A link to a Trello board for the project](https://trello.com/b/dKbbZzsg/devops-project)
+* [Link to Trello board for the project](https://trello.com/b/dKbbZzsg/devops-project)
 * [Link to the project plan spreadsheet](https://docs.google.com/spreadsheets/d/1AzvBUGSu-URpM0XsHgL2tsENGYB3ROJ0uO799wWlHSs/edit?usp=sharing)
 
 ## Instructions
