@@ -60,6 +60,11 @@ An important thing would be to upgrade libraries' versions. I had to downgrade v
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+### Part 1
 
+[Part 1](https://youtu.be/IDPfuOdowdE)
+
+### Part 2
+
+[Part 2](https://youtu.be/di4XG2fgA0s)
 
