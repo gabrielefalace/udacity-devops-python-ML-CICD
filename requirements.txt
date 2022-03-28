@@ -1,4 +1,4 @@
-##pylint
+pylint
 pytest
 pytest-cov
 #cython==0.29.28
