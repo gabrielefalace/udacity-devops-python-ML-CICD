@@ -2,3 +2,4 @@
 VENV/
 __pycache__/
 .vscode/
+.coverage*
