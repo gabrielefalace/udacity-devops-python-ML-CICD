@@ -39,16 +39,16 @@ flask run
 ![Tests passing](/images/Make_all.png)
 
 * Output of a test run
-![Test output]()
+![Test output](/images/tests_passing.png)
 
 * Successful deploy of the project in Azure Pipelines.
-![Test output](/images/Pipeline_Successful_Deploy.png)
+![Deploy successful](/images/Pipeline_Successful_Deploy.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 ![Pipelines Running](/images/App_Deployed_Pipelines_Automatically.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell. 
-![Successful Prediction]()
+![Successful Prediction](/images/sucessful_prediction.png)
 
 * Output of streamed log files from deployed application
 ![Log streams](/images/App_Running_Logs.png)
